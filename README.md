@@ -56,17 +56,9 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-* wxPython
+* Install requirements
 ```sh
-pip install wxpython
-```
-* mysql-connector
-```sh
-pip install mysql-connector
-```
-* clipboard
-```sh
-pip install clipboard
+pip install -r requirements.txt
 ```
 * Download AMPPS <a href="https://ampps.com/download">here</a>.
 
