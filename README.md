@@ -56,11 +56,22 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-* Install requirements
-```sh
-pip install -r requirements.txt
-```
 * Download AMPPS <a href="https://ampps.com/download">here</a>.
+
+
+* Install wxPython module
+```sh
+pip install wxpython
+```
+* Install mysql-connector module
+```sh
+pip install mysql-connector
+```
+* Install clipboard module
+```sh
+pip install clipboard
+```
+
 
 ### Installation
 
@@ -68,24 +79,18 @@ pip install -r requirements.txt
 ```sh
 git clone https://github.com/reoyamanaka/coding_resources_database_manager.git
 ```
-2. Install wxPython module
+
+2. Install requirements
 ```sh
-pip install wxpython
+pip install -r requirements.txt
 ```
-3. Install mysql-connector module
-```sh
-pip install mysql-connector
-```
-4. Install clipboard module
-```sh
-pip install clipboard
-```
-5. Launch AMPPS, start Apache and MySQL
+
+3. Launch AMPPS, start Apache and MySQL
 <p align="center">
   <img src="images/ampps_init.png" width="133" height="261">
 </p>
 
-6. Access phpMyAdmin (localhost/phpmyadmin) and create a new database called `resources_db`. Create a user with all privileges and type in the appropriate database name (`resources_db`), username and password into `resources_manager.py`.
+4. Access phpMyAdmin (localhost/phpmyadmin) and create a new database called `resources_db`. Create a user with all privileges and type in the appropriate database name (`resources_db`), username and password into `resources_manager.py`.
 
 ## Usage
 
