@@ -61,7 +61,7 @@ To get a local copy up and running follow these simple steps.
 
 * Install wxPython module
 ```sh
-pip install wxpython
+pip install wxPython
 ```
 * Install mysql-connector-python module
 ```sh
