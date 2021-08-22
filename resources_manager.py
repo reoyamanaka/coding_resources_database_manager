@@ -5,7 +5,7 @@ import clipboard
 
 #Testing
 try:
-    connection = mysql.connector.connect(host = 'localhost', database = "resources_db", user = "your_username", password = "your_password")
+    connection = mysql.connector.connect(host = 'localhost', database = "resources_db", user = "your_username", password = "your_password", auth_plugin='mysql_native_password')
     if connection.is_connected():
         print("Connected to MySQL Server")      
 except Error as e:
