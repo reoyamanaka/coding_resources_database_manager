@@ -1,7 +1,7 @@
 clipboard==0.0.4
 mysql-connector-python==8.0.26
 numpy==1.21.0
-Pillow==9.0.0
+Pillow==9.3.0
 protobuf==3.17.3
 pyperclip==1.8.2
 six==1.16.0
